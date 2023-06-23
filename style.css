@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    height: auto;
+    width: 40vw;
+    background-color: rgb(202, 135, 48);
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 30px; 
+}
+
+button{
+    height: 8vh;
+    width: 10vw;
+    font-size: 1.6rem;
+    background-color:antiquewhite;
+}
+
+button:hover{
+    cursor: pointer;
+}

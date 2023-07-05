@@ -6,6 +6,9 @@ body{
     align-items: center;
     background-color: black;
 }
+.elements p{
+    font-size: 1.3rem;
+}
 .container{
     height: auto;
     width: 40vw;
@@ -26,9 +29,15 @@ button{
     height: 8vh;
     width: 10vw;
     font-size: 1.6rem;
-    background-color:antiquewhite;
+    font-weight: bold;
+    color: #0A0903;
+    background-color:#FFEAAE;
 }
 
 button:hover{
     cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.8);
 }
